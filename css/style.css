@@ -1,0 +1,29 @@
+body{
+
+background-color: #ffc1fa;
+
+
+}
+h1{
+
+     color: #cf1b1b;
+
+}
+h3{
+  color: #cf1b1b;
+}
+
+
+hr{
+ border-style: none;
+ border-top-style: dotted;
+ border-color: blueviolet;
+ border-width: 4px;
+ width: 6%;
+}
+
+  a {
+  text-decoration: none;
+}
+p {
+  text-indent: 70px;
