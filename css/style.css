@@ -27,3 +27,12 @@ hr{
 }
 p {
   text-indent: 70px;
+}
+
+
+
+
+.circular{
+  border-radius:50%;
+
+}
