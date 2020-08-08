@@ -12,14 +12,20 @@ body {
 
 h1 {
   font-family: 'Sacramento', cursive;
+  color: GREEN;
+
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-weight: normal;
+}
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #1199;
 }
 
 p {
@@ -64,4 +70,13 @@ p {
 
 .cooking {
   border-radius: 50%;
+}
+
+.skills{
+  background-color: pink;
+}
+
+.skill-row1{
+  border: 1px solid red;
+  width: 50%;
 }
