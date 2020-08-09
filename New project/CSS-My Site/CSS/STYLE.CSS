@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -8,24 +8,28 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
   padding: 0;
+  background-color: #f5f1da;
+  font-weight: bold;
 }
 
 h1 {
   font-family: 'Sacramento', cursive;
   color: GREEN;
-
 }
 
 h2 {
+  font-size: 20;
   font-family: 'Montserrat', sans-serif;
-  color: #66bfbf;
+  color: black;
   font-weight: normal;
+  margin-bottom: 100px;
 }
 }
 
 h3 {
+  font-weight: 800;
   font-family: 'Montserrat', sans-serif;
-  color: #1199;
+  color: #cf1b1b;
 }
 
 p {
@@ -37,46 +41,68 @@ p {
   position: relative;
   background-color: #b2ebf2;
   font-size: 30px;
-
 }
+
 .top-container .text {
   position: absolute;
-    top: 20px;
-    left: 40%;
+  top: 20px;
+  left: 40%;
 }
-
 
 .mountain {
   background-color: #b2ebf2;
   width: 100%;
-  border:1px solid pink;
+  border: 1px solid pink;
 }
 
-.middle-container {
-  background-color: white;
-}
+.middle-container {}
 
-.bottom-container {
-  background-color: white;
+.bottom-container {}
+
+.profile {
+  margin-bottom: 200px;
 }
 
 .my {
   border-radius: 50%;
 }
+}
 
-.js {
-  border-radius: 50%;
+.skills {}
+
+.skill-row1 {
+  width: 50%;
+  text-align: left;
+  margin-bottom: 100px;
+  line-height: 2;
+}
+
+.skill-row2 {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  margin: auto 100px 100px auto;
 }
 
 .cooking {
-  border-radius: 50%;
+  border-radius: 500%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: right;
+  margin-right: 10px;
 }
 
-.skills{
-  background-color: pink;
+.js {
+  border-radius: 500%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
 }
 
-.skill-row1{
-  border: 1px solid red;
-  width: 50%;
+.contact-me {
+  margin-bottom: 200px;
 }
