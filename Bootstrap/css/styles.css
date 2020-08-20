@@ -1,14 +1,60 @@
 body{
+margin: 0;
+overflow-x: hidden;
 
 }
+/*navbar*/
 
+.header{
 
-
-#title{
-  background-color: #ff4c68;
+background-color: #FF405F;
 }
- .h1{
-   font-family: 'Montserrat-black', sans-serif;
+.navbar{
+  padding: 5px 5rem;
+
+}
+.navbar-brand{
+  font-size: 2em;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2em;
+  font-family: : "Montserrat";
+  color: #fff !important;
+}
+
+.nav-link:hover{
+color: black !important;
+}
+
+/*banner*/
+.banner{
+background-color: #FF405F;
+}
+ .banner-text{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 500px;
+
+
+ }
+ .row{
+   border: 6px solid green;
+ }
+ .banner-image{
+   background-color: blue;
+ }
+.heading{
+  background-color: black;
+ font-size: 3em;
+  color: white;
+  width: 70%;
+  margin-top: 3em;
+  margin-left: 2em;
 
 }
 
@@ -16,33 +62,11 @@ body{
   padding:2% 15% ;
 }
 
-.heading{
- font-size: 3em;
-  color: white;
-}
 
 
-.navbar-brand{
-  font-size: 2em;
-}
-
-.nav-link{
-  font-size: 1.2em;
-  font-family: : "Montserrat";
-}
-.navbar{
-  padding: 0 0 5rem;
-
-}
-.nav-item{
-  padding: 0 18px;
-
-}
 
 
-.banner{
 
-}
 
 
 .iphone{
