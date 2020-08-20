@@ -1,80 +1,72 @@
-body{
-margin: 0;
-overflow-x: hidden;
-
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
+
 /*navbar*/
-
-.header{
-
-background-color: #FF405F;
+.header {
+  background-color: #FF405F;
 }
-.navbar{
+
+.navbar {
   padding: 5px 5rem;
-
 }
-.navbar-brand{
+
+.navbar-brand {
   font-size: 2em;
   font-weight: bold;
 }
-.nav-item{
-  padding: 0 18px;
 
+.nav-item {
+  padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
   font-size: 1.2em;
   font-family: : "Montserrat";
   color: #fff !important;
 }
 
-.nav-link:hover{
-color: black !important;
+.nav-link:hover {
+  color: black !important;
 }
 
 /*banner*/
-.banner{
-background-color: #FF405F;
+
+
+.banner {
+  background-color: #FF405F;
+  height: 100vh;
 }
- .banner-text{
-    border: 1px solid black;
-    background-color: yellow;
-    height: 500px;
+.banner-text {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 70px;
+}
 
-
- }
- .row{
-   border: 6px solid green;
- }
- .banner-image{
-   background-color: blue;
- }
-.heading{
-  background-color: black;
- font-size: 3em;
+.heading {
+  height: 40%;
+  font-size: 4em;
   color: white;
-  width: 70%;
-  margin-top: 3em;
-  margin-left: 2em;
-
-}
-
-.container-fluid{
-  padding:2% 15% ;
 }
 
 
+.btn_container{
+  text-align:center;
+}
 
+.download-button {
+  margin-left: 20px;
+}
 
+.banner-image {
+  
+  text-align: center;
 
-
-
-
-.iphone{
-
+}
+.iphone {
   width: 50%;
-  transform: rotate(25deg);
-}
-
-.download-button{
 
 }
