@@ -32,12 +32,11 @@ body {
 }
 
 /*banner*/
-
-
 .banner {
   background-color: #FF405F;
   height: 100vh;
 }
+
 .banner-text {
   height: inherit;
   display: flex;
@@ -52,9 +51,8 @@ body {
   color: white;
 }
 
-
-.btn_container{
-  text-align:center;
+.btn_container {
+  text-align: center;
 }
 
 .download-button {
@@ -62,11 +60,36 @@ body {
 }
 
 .banner-image {
-  
   text-align: center;
-
 }
+
 .iphone {
   width: 50%;
+}
 
+/* features */
+#features {
+  padding: 7% 9%;
+  background-color: #fff;
+}
+h3 {
+  font-family: bold;
+  font-size: 1.5rem;
+
+}
+p{
+color: grey;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#ff46c8;
 }
