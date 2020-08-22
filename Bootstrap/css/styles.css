@@ -42,10 +42,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 70px;
 }
 
 .heading {
+  text-align: center;
   height: 40%;
   font-size: 4em;
   color: white;
@@ -72,24 +72,59 @@ body {
   padding: 7% 9%;
   background-color: #fff;
 }
+
 h3 {
   font-family: bold;
   font-size: 1.5rem;
-
-}
-p{
-color: grey;
 }
 
+p {
+  color: grey;
+}
 
 .feature-box {
   text-align: center;
   padding: 5%;
 }
-.icon{
+
+.icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
-.icon:hover{
-  color:#ff46c8;
+
+.icon:hover {
+  color: #ff46c8;
 }
+
+/*testimonials*/
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-heading {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+}
+
+/* press */
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+  }
+  .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px
+
+  }
+
+  /* pricing */
