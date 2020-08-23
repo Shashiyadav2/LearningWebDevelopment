@@ -97,34 +97,50 @@ p {
 }
 
 /*testimonials*/
-#testimonials {
-  padding: 7% 15%;
+.testimonials {
+
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
+.testimonials p {
+  color: #1b262c;
+  font-size: 22px;
+  margin-top: 10px;
+
+}
+
 .testimonial-heading {
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: bold;
-  line-height: 2em;
+  font-family: sans-serif;
+}
+.carousel-item{
+ padding: 7% 15%;
 }
 
 .testimonial-image {
-  width: 10%;
+  width: 20%;
   border-radius: 50%;
+  border: 2px solid white;
 }
 
 /* press */
-#press{
-  background-color:  #ef8172;
+#press {
+  background-color: #fff;
   text-align: center;
-  padding-bottom: 3%;
-  }
-  .press-logo{
-    width: 15%;
-    margin: 20px 20px 50px
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  }
+.press-logo {
+  width: 15%;
+}
 
-  /* pricing */
+/* pricing */
+#pricing {
+  background-color: #ef8172;
+}
