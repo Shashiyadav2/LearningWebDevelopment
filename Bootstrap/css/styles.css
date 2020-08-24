@@ -98,7 +98,6 @@ p {
 
 /*testimonials*/
 .testimonials {
-
   text-align: center;
   background-color: #ef8172;
   color: #fff;
@@ -108,7 +107,6 @@ p {
   color: #1b262c;
   font-size: 22px;
   margin-top: 10px;
-
 }
 
 .testimonial-heading {
@@ -116,8 +114,9 @@ p {
   font-weight: bold;
   font-family: sans-serif;
 }
-.carousel-item{
- padding: 7% 15%;
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 .testimonial-image {
