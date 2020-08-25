@@ -141,5 +141,11 @@ p {
 
 /* pricing */
 #pricing {
-  background-color: #ef8172;
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+
 }
