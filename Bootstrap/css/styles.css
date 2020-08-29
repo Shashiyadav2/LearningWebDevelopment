@@ -33,6 +33,9 @@ body {
 }
 
 /*banner*/
+.row{
+  text-align: center;
+}
 .banner {
   background-color: #FF405F;
   height: 100vh;
@@ -158,4 +161,16 @@ p {
 .pricing-column {
   padding: 3% 2%;
 
+}
+
+@@media (max-width: 1028px){
+#title{
+  text-align: center;
+}
+
+
+  .title-image{
+    position: static;
+
+  }
 }
