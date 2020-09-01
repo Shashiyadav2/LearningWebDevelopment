@@ -6,7 +6,6 @@ body {
 /*navbar*/
 .header {
   background-color: #FF405F;
-
 }
 
 .navbar {
@@ -33,9 +32,10 @@ body {
 }
 
 /*banner*/
-.row{
+.row {
   text-align: center;
 }
+
 .banner {
   background-color: #FF405F;
   height: 100vh;
@@ -50,40 +50,38 @@ body {
 }
 
 .heading {
-  margin-left: 80px;
   text-align: center;
-
-  height: 40%;
+  width: 100%;
+  height: auto;
   font-size: 4em;
   color: white;
 }
 
 .btn_container {
   text-align: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .download-button {
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .banner-image {
-text-align: center;
+  text-align: center;
 }
 
-.iphone{
+.iphone {
   width: 50%;
   transform: rotate(25deg);
 }
-
-
 
 /* features */
 #features {
   padding: 7% 9%;
   background-color: #fff;
   position: relative;
-  z-index:1;
+  z-index: 1;
 }
 
 h3 {
@@ -158,24 +156,63 @@ p {
   padding: 100px;
   text-align: center;
 }
+
 .pricing-column {
   padding: 3% 2%;
-
 }
 
-@@media (max-width: 1028px){
-#title{
+/* calling */
+#cta {
+  background-color: #FF405F;
+  height: auto;
+  width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 200px;
 }
 
+.calling-text {
+  color: #fff;
+  text-align: center;
+  font-size: 5em;
+  font-family: bold;
 
-  .title-image{
-    position: static;
 
+}
+.buttons{
+
+
+}
+.calling-btn{
+
+  margin-left: 20px;
+}
+/* footer */
+#footer{
+background-color: #fff;
+  text-align: center;
+  height:200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footerp{
+
+font-size:14px;
+
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+    ;
   }
-}
-@media screen and (min-width: 480px) {
-  body {
-    background-color: lightgreen;
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
   }
 }
