@@ -1,6 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: #fff;
 }
 
 /*navbar*/
@@ -30,14 +31,20 @@ body {
 .nav-link:hover {
   color: #fff !important;
 }
+.colored-section{
+  background-color: #FF405F;
+
+}
 
 /*banner*/
 .row {
   text-align: center;
+margin-left: 0.2em;
+
 }
 
 .banner {
-  background-color: #FF405F;
+
   height: 100vh;
   width: 100vw;
 }
@@ -50,7 +57,7 @@ body {
 }
 
 .heading {
-  text-align: center;
+  text-align:center;
   width: 100%;
   height: auto;
   font-size: 4em;
@@ -110,7 +117,7 @@ p {
 /*testimonials*/
 .testimonials {
   text-align: center;
-  background-color: #FF405F;
+
   color: #fff;
 }
 
@@ -151,14 +158,14 @@ p {
 }
 
 /* pricing */
-#pricing {
-  background-color: #FF405F;
+.pricing {
+
   padding: 50px;
   text-align: center;
   color: #FFF;
 }
 
-#pricing p {
+.pricing p {
   color: #fff;
 }
 
@@ -197,7 +204,7 @@ p {
 
 /* footer */
 #footer {
-  background-color: #FF405F;
+
   color: #fff;
   text-align: center;
   height: 150px;
